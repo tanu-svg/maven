@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'hhttps://github.com/tanu-svg/maven.git'
+                git branch: 'master', url: 'https://github.com/tanu-svg/maven.git'
             }
         }
 
